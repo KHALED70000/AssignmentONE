@@ -283,10 +283,12 @@ header .hero button{
 
 }
 
-.seventhart span{
-     font-size: 16px;
+
+
+.seventhart div a{
+    font-size: 16px;
     font-weight: 500;
     color: #8987A1;
     font-family: "Raleway";
-
+    text-decoration: none;
 }
