@@ -138,6 +138,7 @@ header .hero button{
     font-size: 20px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
+    font-family: "Raleway";
 }
 
 .fourthart{
@@ -188,3 +189,103 @@ header .hero button{
 
 }
 
+.fifthart{
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+}
+.fifthart h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Raleway";
+    margin: 40px 0 20px 0;
+}
+
+.fifthart p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Raleway";
+
+    margin-bottom: 20px;
+}
+
+
+.fifthart button{
+    margin-bottom: 20px;
+}
+.sixthart h3{
+    font-size: 97px;
+    font-weight: bold;
+    font-family: "Raleway";
+    color: #000000;
+}
+
+.sixthart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sixthart .right{
+    height: 500px;
+    width: 500px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sixthart .right label{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+.sixthart .right input, .sixthart .right textarea{
+   padding: 20px 10px;
+   border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    margin-top: 5px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.sixthart .right input::placeholder, .sixthart .right textarea::placeholder{
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.sixthart .right button{
+    margin-top: 20px;
+}
+
+.seventhart{
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.seventhart h2{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    font-family: "Raleway";
+    margin: 20px 0;
+}
+.seventhart p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8987A1;
+    text-align: center;
+    font-family: "Raleway";
+
+}
+
+.seventhart span{
+     font-size: 16px;
+    font-weight: 500;
+    color: #8987A1;
+    font-family: "Raleway";
+
+}
